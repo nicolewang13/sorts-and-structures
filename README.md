@@ -1,0 +1,14 @@
+This repository contains all documentation for the following data structures and sorting algorithms:
+- AVL Tree
+- Chaining Hash Table
+- Hash Trie Map
+- Hash Trie Set
+- Move To Front List
+- Array Stack
+- Circular Array FIFO Queue
+- List FIFO Queue
+- Min Four Heap
+- Min Four Heap Comparable
+- Heap Sort
+- Quick Sort
+- Top K Sort
