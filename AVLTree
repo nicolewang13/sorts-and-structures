@@ -1,0 +1,20 @@
+The AVLNode extends from BSTNode, with the addition of the height component.
+The AVLTree extends from the Binary Search Tree class, and is a dictionary (having a key-value pair). In my implementation, I wrote and override the insert method with my own implementation.
+Documentation:
+Parameters:
+- K key: the key to be inserted
+- V value: the value associated with the key
+Exceptions:
+- Throws a new IllegalArgumentException() if either the key or the value is null
+Post-Conditions:
+- Inserts the AVLNode into the AVLTree (a balanced binary search tree).
+- With a pre-order traversal, checks the heights of the left and right children to ensure balance.
+- If unbalanced:
+  - Case LL: single right rotation at the current node
+  - Case RR: single left rotation at the current node
+  - Case LR: single left rotation at the node's left child, single right rotation at the current node
+  - Case RL: single right rotation at the node's right child, single left rotation at the current node
+- After rotating, updates the height of the current node
+- Returns:
+  - If the key did not previously exist: null
+  - If the key did previously exist: the value previously associated with that key
